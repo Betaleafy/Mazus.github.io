@@ -1,0 +1,19 @@
+body{
+    color:white;
+    background-color:black;
+    font-family:calibri, arial, helvetica;
+}
+header{
+    font-family:'Times New Roman';
+}
+h1{
+    font-family:'Trebuchet MS' !important;
+}
+nav{
+    background-color:blueviolet;
+    color:red;
+}
+nav a{
+    text-decoration:none;
+    color:red;
+}
