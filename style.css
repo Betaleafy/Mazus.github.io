@@ -1,13 +1,14 @@
 body{
     color:white;
     background-color:black;
-    font-family:calibri, arial, helvetica;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, 'Times New Roman';
 }
-header{
-    font-family:'Times New Roman';
-}
+
 h1{
     font-family:'Trebuchet MS' !important;
+}
+h4{
+    font-family:'Times New Roman' !important;
 }
 nav{
     background-color:blueviolet;
@@ -16,4 +17,7 @@ nav{
 nav a{
     text-decoration:none;
     color:red;
+}
+#pagename{
+    float:right;
 }
