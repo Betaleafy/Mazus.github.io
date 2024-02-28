@@ -1,23 +1,32 @@
 body{
-    color:white;
-    background-color:black;
-    font-family: -apple-system, BlinkMacSystemFont, Arial, 'Times New Roman';
+	background-color:black;
+	color:white;
+	font-family:arial;
+}
+h1{
+	font-family:"Trebuchet MS";
+}
+h2, .blog{
+	font-family:"Times New Roman";
 }
 
-h1{
-    font-family:'Trebuchet MS' !important;
+.navlinkad, .blog, .aboutme, .webwring, .hyperlinks, .projects, .trapixen{
+	border:solid;
+	text-align:left;
+	padding:1%;
 }
-h4{
-    font-family:'Times New Roman' !important;
+
+.aboutme p{
+	font-size:12px;
 }
-nav{
-    background-color:blueviolet;
-    color:red;
+.hyperlinks{
+	overflow:auto;
 }
-nav a{
-    text-decoration:none;
-    color:red;
+.projects{
+	font-size:12px;
+	width:1000px;
 }
-#pagename{
-    float:right;
+#projects{
+	overflow:auto;
+	height:150;
 }
